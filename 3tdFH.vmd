@@ -1,6 +1,6 @@
 #!/usr/local/bin/vmd
-# VMD script written by save_state $Revision: 1.48 $
-# VMD version: 1.9.4a51
+# VMD script written by save_state $Revision: 1.47 $
+# VMD version: 1.9.3
 set viewplist {}
 set fixedlist {}
 proc vmdrestoremymaterials {} {
@@ -278,7 +278,7 @@ display eyesep       0.065000
 display focallength  2.000000
 display height       6.000000
 display distance     -2.000000
-display projection   Perspective
+display projection   Orthographic
 display nearclip set 0.500000
 display farclip  set 10.000000
 display depthcue   off
@@ -295,7 +295,7 @@ display aodirect 0.300000
 display dof off
 display dof_fnumber 64.000000
 display dof_focaldist 0.700000
-mol new /Users/choss/Downloads/3tdFH.pdb type pdb first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
+mol new /home/choss/ribosome-chemical-modification-figures/3tdFH.pdb type pdb first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
 mol delrep 0 top
 mol representation CPK 1.000000 0.300000 102.000000 102.000000
 mol color Name
@@ -309,32 +309,32 @@ mol smoothrep top 0 0
 mol drawframes top 0 {now}
 mol clipplane center 0 0 top {0.0 0.0 0.0}
 mol clipplane color  0 0 top {0.5 0.5 0.5 }
-mol clipplane normal 0 0 top {0.0 0.0 1.0000001192092896}
+mol clipplane normal 0 0 top {0.0 0.0 1.0}
 mol clipplane status 0 0 top {0}
 mol clipplane center 1 0 top {0.0 0.0 0.0}
 mol clipplane color  1 0 top {0.5 0.5 0.5 }
-mol clipplane normal 1 0 top {0.0 0.0 1.0000001192092896}
+mol clipplane normal 1 0 top {0.0 0.0 1.0}
 mol clipplane status 1 0 top {0}
 mol clipplane center 2 0 top {0.0 0.0 0.0}
 mol clipplane color  2 0 top {0.5 0.5 0.5 }
-mol clipplane normal 2 0 top {0.0 0.0 1.0000001192092896}
+mol clipplane normal 2 0 top {0.0 0.0 1.0}
 mol clipplane status 2 0 top {0}
 mol clipplane center 3 0 top {0.0 0.0 0.0}
 mol clipplane color  3 0 top {0.5 0.5 0.5 }
-mol clipplane normal 3 0 top {0.0 0.0 1.0000001192092896}
+mol clipplane normal 3 0 top {0.0 0.0 1.0}
 mol clipplane status 3 0 top {0}
 mol clipplane center 4 0 top {0.0 0.0 0.0}
 mol clipplane color  4 0 top {0.5 0.5 0.5 }
-mol clipplane normal 4 0 top {0.0 0.0 1.0000001192092896}
+mol clipplane normal 4 0 top {0.0 0.0 1.0}
 mol clipplane status 4 0 top {0}
 mol clipplane center 5 0 top {0.0 0.0 0.0}
 mol clipplane color  5 0 top {0.5 0.5 0.5 }
-mol clipplane normal 5 0 top {0.0 0.0 1.0000001192092896}
+mol clipplane normal 5 0 top {0.0 0.0 1.0}
 mol clipplane status 5 0 top {0}
 mol representation VDW 0.500000 102.000000
-mol color Name
+mol color ColorID 25
 mol selection {name C10 H10 H10A H10B C5 H5 C6 H6 N1 HN1}
-mol material EdgyGlass
+mol material Transparent
 mol addrep top
 mol selupdate 1 top 0
 mol colupdate 1 top 0
@@ -343,33 +343,33 @@ mol smoothrep top 1 0
 mol drawframes top 1 {now}
 mol clipplane center 0 1 top {0.0 0.0 0.0}
 mol clipplane color  0 1 top {0.5 0.5 0.5 }
-mol clipplane normal 0 1 top {0.0 0.0 1.0000001192092896}
+mol clipplane normal 0 1 top {0.0 0.0 1.0}
 mol clipplane status 0 1 top {0}
 mol clipplane center 1 1 top {0.0 0.0 0.0}
 mol clipplane color  1 1 top {0.5 0.5 0.5 }
-mol clipplane normal 1 1 top {0.0 0.0 1.0000001192092896}
+mol clipplane normal 1 1 top {0.0 0.0 1.0}
 mol clipplane status 1 1 top {0}
 mol clipplane center 2 1 top {0.0 0.0 0.0}
 mol clipplane color  2 1 top {0.5 0.5 0.5 }
-mol clipplane normal 2 1 top {0.0 0.0 1.0000001192092896}
+mol clipplane normal 2 1 top {0.0 0.0 1.0}
 mol clipplane status 2 1 top {0}
 mol clipplane center 3 1 top {0.0 0.0 0.0}
 mol clipplane color  3 1 top {0.5 0.5 0.5 }
-mol clipplane normal 3 1 top {0.0 0.0 1.0000001192092896}
+mol clipplane normal 3 1 top {0.0 0.0 1.0}
 mol clipplane status 3 1 top {0}
 mol clipplane center 4 1 top {0.0 0.0 0.0}
 mol clipplane color  4 1 top {0.5 0.5 0.5 }
-mol clipplane normal 4 1 top {0.0 0.0 1.0000001192092896}
+mol clipplane normal 4 1 top {0.0 0.0 1.0}
 mol clipplane status 4 1 top {0}
 mol clipplane center 5 1 top {0.0 0.0 0.0}
 mol clipplane color  5 1 top {0.5 0.5 0.5 }
-mol clipplane normal 5 1 top {0.0 0.0 1.0000001192092896}
+mol clipplane normal 5 1 top {0.0 0.0 1.0}
 mol clipplane status 5 1 top {0}
 mol rename top 3tdFH.pdb
-set viewpoints([molinfo top]) {{{1 0 0 -197.066} {0 1 0 -197.765} {0 0 1 -199.904} {0 0 0 1}} {{-0.783484 -0.618419 -0.0609458 0} {-0.598584 0.7774 -0.193251 0} {0.166892 -0.114929 -0.979259 0} {0 0 0 1}} {{0.265722 0 0 0} {0 0.265722 0 0} {0 0 0.265722 0} {0 0 0 1}} {{1 0 0 0} {0 1 0 0} {0 0 1 0} {0 0 0 1}}}
+set viewpoints([molinfo top]) {{{1 0 0 -197.066} {0 1 0 -197.765} {0 0 1 -199.904} {0 0 0 1}} {{-0.915166 0.379861 -0.134815 0} {-0.400235 -0.896018 0.192252 0} {-0.047771 0.2299 0.972046 0} {0 0 0 1}} {{0.265722 0 0 0} {0 0.265722 0 0} {0 0 0.265722 0} {0 0 0 1}} {{1 0 0 0} {0 1 0 0} {0 0 1 0} {0 0 0 1}}}
 lappend viewplist [molinfo top]
 set topmol [molinfo top]
-# done with molecule 4
+# done with molecule 8
 foreach v $viewplist {
   molinfo $v set {center_matrix rotate_matrix scale_matrix global_matrix} $viewpoints($v)
 }
@@ -393,29 +393,6 @@ color scale colors GWB {0.0 1.0 0.0} {1.0 1.0 1.0} {0.0 0.0 1.0}
 color scale colors BWG {0.0 0.0 1.0} {1.0 1.0 1.0} {0.0 1.0 0.0}
 color scale colors BlkW {0.0 0.0 0.0} {0.5 0.5 0.5} {1.0 1.0 1.0}
 color scale colors WBlk {1.0 1.0 1.0} {0.5 0.5 0.5} {0.0 0.0 0.0}
-color scale colors cividis {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors viridis {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors magma {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors plasma {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors inferno {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors CET_L3 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors CET_L8 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors CET_L9 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors CET_L16 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors CET_L17 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors CET_L18 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors CET_L19 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors CET_L20 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors CET_C2 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors CET_C4 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors CET_C6 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors CET_C7 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors CET_I1 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors CET_I2 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors CET_I3 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors CET_D11 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors CET_D12 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
-color scale colors CET_R2 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
   color scale method RWB
   set colorcmds {
     {color Display {Background} white}
@@ -445,7 +422,6 @@ color scale colors CET_R2 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
     {color Element {Bi} ochre}
     {color Element {Bk} ochre}
     {color Element {Br} ochre}
-    {color Element {C} black}
     {color Element {Ca} ochre}
     {color Element {Cd} ochre}
     {color Element {Ce} ochre}
@@ -535,20 +511,26 @@ color scale colors CET_R2 {0.0 0.0 0.0} {0.0 0.0 0.0} {0.0 0.0 0.0}
     {color Element {Y} ochre}
     {color Element {Yb} ochre}
     {color Element {Zr} ochre}
-    {color Resname {2MA} silver}
-    {color Resname {3TD} green}
-    {color Resname {PSU} white}
-    {color Chain {a} blue}
-    {color Chain {A} red}
-    {color Segname {V} blue}
-    {color Segname {A} red}
+    {color Resname {PSU} silver}
+    {color Resname {2MA} green}
+    {color Resname {3TD} white}
+    {color Chain {A} blue}
+    {color Chain {a} red}
+    {color Segname {A} blue}
+    {color Segname {V} red}
     {color Conformation {all} blue}
     {color Molecule {0} blue}
-    {color Molecule {1} red}
-    {color Molecule {2} gray}
-    {color Molecule {3} orange}
-    {color Molecule {4} yellow}
+    {color Molecule {psuFH.pdb} blue}
+    {color Molecule {1} gray}
+    {color Molecule {2} orange}
+    {color Molecule {3} yellow}
+    {color Molecule {2maFH.pdb} orange}
+    {color Molecule {4} silver}
     {color Molecule {3tdFH.pdb} yellow}
+    {color Molecule {5} white}
+    {color Molecule {6} pink}
+    {color Molecule {7} cyan}
+    {color Molecule {8} purple}
     {color Structure {3_10_Helix} blue}
     {color Surface {Grasp} gray}
     {color Labels {Springs} orange}
