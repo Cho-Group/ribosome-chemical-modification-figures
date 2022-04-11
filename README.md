@@ -7,7 +7,7 @@ This repository contains:
     d) 2-metyl-adenine (2ma.namd.pdb)  
     e) 5-hydroxyl-cytosine (c-7k00-5ocFH.pdb)  
 2) The corresponding .vmd files for visualization in [VMD](https://www.ks.uiuc.edu/Research/vmd/)
-3) The .tga image files generated using [Pov-Ray 3.6] (https://www.povray.org/download/linux.php) 
+3) The .tga image files generated using [Pov-Ray 3.6](https://www.povray.org/download/linux.php) 
 
 ## Detailed Notes:
 - 7k00.pdb was downloaded from the [PDB] (https://www.rcsb.org/structure/7k00) and is unaltered.
