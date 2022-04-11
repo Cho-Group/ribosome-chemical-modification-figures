@@ -2,7 +2,7 @@
 This repository contains:
 1) the PDB coordinate files for:  
     a) 70s ribosome (7k00.pdb)  
-    b) Pseudouridine (psuFH.pdb)  
+    b) pseudouridine (psuFH.pdb)  
     c) 3-methyl-pseudouridine (3tdFH.pdb)  
     d) 2-metyl-adenine (2ma.namd.pdb)  
     e) 5-hydroxyl-cytosine (c-7k00-5ocFH.pdb)  
